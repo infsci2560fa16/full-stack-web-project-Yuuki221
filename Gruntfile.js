@@ -1,9 +1,20 @@
 module.exports = function(grunt) {
+  // modules for complie sass file 
+  require('load-grunt-tasks')(grunt);
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     srcFolder: 'src/main/resources',
     testFolder: 'src/test/resources',
     distFolder: 'target/classes',
+    
+    /*
+      meta information for compile sass path, complie js path 
+    */
+    meta: {
+      scssPath: 'src/main/resources/public/stylesheets/scss/',
+      cssPath: 'src/main/resources/public/stylesheets/'
+    },
+
     validation: {
       options: {
         reset: grunt.option('reset') || true,
@@ -66,6 +77,26 @@ module.exports = function(grunt) {
           ext: '.min.css'
         }]
       }
+    },
+    /*
+      sass compile task, enable sourceMap to make it easier for debug 
+    */
+    sass: {
+      options: {
+        sourceMap: true
+      },
+      dist: {
+        files: {
+          '<%= meta.cssPath %>index_main.css': '<%= meta.scssPath %>index_main.scss',
+          '<%= meta.cssPath %>general_setting.css': '<%= meta.scssPath %>general_setting.scss',
+          '<%= meta.cssPath %>home-page.css': '<%= meta.scssPath %>home-page.scss',
+          '<%= meta.cssPath %>user_home-style.css': '<%= meta.scssPath %>user_home-style.scss',
+          '<%= meta.cssPath %>listen_home-style.css': '<%= meta.scssPath %>listen_home-style.scss',
+          '<%= meta.cssPath %>listen_single_page-style.css': '<%= meta.scssPath %>listen_single_page-style.scss'
+
+
+        }
+      }
     }
   });
 
@@ -78,5 +109,5 @@ module.exports = function(grunt) {
   grunt.registerTask('test', ['validation', 'jshint']);
 
   // the default task can be run just by typing "grunt" on the command line
-  grunt.registerTask('default', ['validation', 'jshint']);
+  grunt.registerTask('default', ['validation', 'jshint', 'sass']);
 };

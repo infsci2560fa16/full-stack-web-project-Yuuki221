@@ -1,0 +1,10 @@
+/* 
+	contains general setting for pages: 
+	page header, page footer, font setting 
+ */
+@import 'variables';
+@import 'mixins';
+@import 'general';
+@import 'front-header';
+@import 'front-main';
+@import 'general-footer';

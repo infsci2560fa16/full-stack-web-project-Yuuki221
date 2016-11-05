@@ -1,0 +1,35 @@
+/* 
+	file for styling footer 
+ */
+
+footer {
+	position: absolute;
+	z-index: 99;
+
+	height: 100px;
+	width: 100%;
+
+	background: $scuffed-dark-grey;
+
+	color: $white-ish;
+
+	text-align: center;
+
+	padding-top: 15px;
+
+	bottom: 0;
+}
+
+.footer-info {
+	width: 80%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social {
+	cursor: pointer;
+	&:hover {
+		text-transform: underline;
+	}
+}

@@ -1,0 +1,40 @@
+/*
+	Some useful functions to help simply scss 
+*/
+@mixin border-radius($radius){
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transition($entity, $time, $effect){
+	-webkit-tranisiton: $entity, $time, $effect;
+	-moz-transition: $entity, $time, $effect;
+	-o-transition: $entity, $time, $effect;
+	transition: $entity, $time, $effect;
+}
+
+@mixin linkbtn(){
+	border: solid 1px $white-ish;
+	text-align: center;
+	cursor: pointer;
+	@include border-radius(5px);
+	@include transition(text-transform, 0.3s, ease-in-out);
+}
+
+@mixin sub-page-title(){
+	font-size: 5rem;
+	font-weight: 900;
+
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+	border-bottom: solid 1px $white-ish;
+}
+
+@mixin inline-block-lastline-adjust(){
+	content: "";
+	display: inline-block;
+	width: 100%;
+}

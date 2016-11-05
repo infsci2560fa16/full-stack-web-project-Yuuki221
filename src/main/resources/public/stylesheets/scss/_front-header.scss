@@ -1,0 +1,54 @@
+/* 
+	for general header setting at the front page
+
+	with website title and icon at left side  
+ */
+
+ header {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 50px;
+
+ 	background: $scuffed-dark-grey;
+
+ 	color: $white-ish;
+
+	z-index: 99;
+ }
+
+ // icon and title area
+ .header-wrapper {
+ 	width: 80%;
+ 	height: 50px;
+
+ 	position: relative;
+
+ 	max-width: 1080px;
+
+ 	margin: 0 auto;
+ }
+
+ .header-wrapper svg, .main-title {
+ 	display: inline-block;
+ 	position: absolute;
+
+ }
+
+ .header-wrapper svg {
+ 	width: 30px;
+ 	height: 30px;
+
+ 	left: 20px;
+ 	top: 9px;
+ }
+
+ .main-title {
+ 	left: 70px;
+	top: 10px;
+ 	font-weight: 800;
+ }
+
+
+

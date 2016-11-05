@@ -1,0 +1,40 @@
+// global setting of border box 
+*, *:before, *:after {
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	font-family: 'Share Tech Mono', Helvetic, sans-serif;
+	font-size: 1.7rem;
+	font-size: 17px; // backup for IE 8 and older browser 
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+	line-height: 1.5;
+
+	font-family: 'Share Tech Mono', Helvetic, sans-serif;
+	font-size: 1.7rem;
+	font-size: 17px;
+
+	margin:0; 
+}
+
+/*
+	general style for link on website 
+*/
+a {color: $simpler-lime-green;}
+a:hover {color: $simpler-lime-green;}
+
+
+/*
+	helper classes 
+*/
+
+.hide { display: none; }
+

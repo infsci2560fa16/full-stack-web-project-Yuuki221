@@ -1,0 +1,32 @@
+/* 
+	this is for general style of left and rght layout page 
+ */
+.two-columns-wrap {
+	margin-top: 30px;
+	text-align: justify;
+}
+.two-columns-wrap:after {
+	@include inline-block-lastline-adjust();
+}
+
+.left-navigation, .right-content {
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.7);
+	@include border-radius(5px);
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+.left-navigation {
+	width: 20%;
+}
+
+.right-content {
+	width: 70%;
+}
+
