@@ -1,0 +1,20 @@
+.focus-track-li {
+	width: 100%;
+}
+.ripple-volume-adjuster-wrap {
+	position: relative;
+	width: 300px;
+	height: 10px;
+	background: $vanilla-grey;
+}
+
+.ripple-volume-inner {
+	position: absolute;
+	height: 10px;
+	background: $simpler-lime-green;
+}
+
+.ripple-play-btn-wrap svg {
+	fill: $vanilla-grey;
+}
+

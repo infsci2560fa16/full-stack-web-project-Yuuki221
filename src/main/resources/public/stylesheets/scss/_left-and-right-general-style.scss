@@ -20,13 +20,31 @@
 	padding-right: 15px;
 }
 
+.left-navigation {
+	margin-right: 0;
+}
 
 
 .left-navigation {
 	width: 20%;
+
+	height: 700px;
 }
 
 .right-content {
 	width: 70%;
+	height: 700px;
+	// overflow: scroll;
+	float: right;
+}
+
+.sub-content-wrap {
+	overflow: scroll;
+
+	height: 600px;
+}
+
+.ripple-volume-adjuster-wrap {
+	margin-top: 20px;
 }
 

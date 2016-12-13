@@ -92,7 +92,9 @@ module.exports = function(grunt) {
           '<%= meta.cssPath %>home-page.css': '<%= meta.scssPath %>home-page.scss',
           '<%= meta.cssPath %>user_home-style.css': '<%= meta.scssPath %>user_home-style.scss',
           '<%= meta.cssPath %>listen_home-style.css': '<%= meta.scssPath %>listen_home-style.scss',
-          '<%= meta.cssPath %>listen_single_page-style.css': '<%= meta.scssPath %>listen_single_page-style.scss'
+          '<%= meta.cssPath %>listen_single_page-style.css': '<%= meta.scssPath %>listen_single_page-style.scss',
+          '<%= meta.cssPath %>share_home-style.css': '<%= meta.scssPath %>share_home-style.scss'
+
 
 
         }
@@ -106,8 +108,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // this would be run by typing "grunt test" on the command line
-  grunt.registerTask('test', ['validation', 'jshint']);
+  //grunt.registerTask('test', ['validation', 'jshint']);
 
   // the default task can be run just by typing "grunt" on the command line
-  grunt.registerTask('default', ['validation', 'jshint', 'sass']);
+  // grunt.registerTask('default', ['validation', 'jshint', 'sass']);
+  grunt.registerTask('default', ['sass']);
+
 };

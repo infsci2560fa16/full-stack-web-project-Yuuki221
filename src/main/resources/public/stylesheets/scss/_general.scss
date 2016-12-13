@@ -38,3 +38,20 @@ a:hover {color: $simpler-lime-green;}
 
 .hide { display: none; }
 
+/* 
+	Style buttons 
+ */
+
+.common-btn {
+	background: $white-ish;
+
+	border: none;
+}
+
+#main-home-link {
+	color: $white-ish;
+	&, &:hover, &:visited {
+		text-decoration: none;
+	}
+}
+

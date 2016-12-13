@@ -40,6 +40,18 @@ a:hover {
   display: none; }
 
 /* 
+	Style buttons 
+ */
+.common-btn {
+  background: #f9f8fd;
+  border: none; }
+
+#main-home-link {
+  color: #f9f8fd; }
+  #main-home-link, #main-home-link:hover, #main-home-link:visited {
+    text-decoration: none; }
+
+/* 
 	for general header setting at the front page
 
 	with website title and icon at left side  

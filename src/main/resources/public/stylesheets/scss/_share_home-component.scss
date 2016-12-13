@@ -40,7 +40,7 @@
 
 
 .focus-track-li {
-	height: 100px;
+	height: 150px;
 
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -79,7 +79,7 @@
 
  .ripple-all-track-li {
  	border-bottom: solid 1px $white-ish;
- 	height: 200px;
+ 	height: 150px;
 
  	line-height: 40px;
 
@@ -92,6 +92,45 @@
  .ripple-like-btn-wrap {
  	margin-left: 40px;
  }
+
+ /* 
+	style for show all blogs
+ */
+
+ .right-content {
+ 	width: 100%;
+ }
+
+.ripple-blog-poster, .ripple-blog-content, .ripple-blog-date {
+	display: block;
+}
+
+.ripple-blog-poster {
+	background: $simpler-lime-green;
+	color: $white-ish;
+}
+
+.ripple-all-blog-li {
+	height: 150px;
+
+	margin-top: 20px;
+}
+
+.ripple-blog-content {
+	height: 120px;
+}
+
+/* 
+	Recommendation cotent section style 
+*/
+
+.sub-recommend-content-li {
+	height: 60px;
+	padding-top: 20px;
+}
+
+
+
 
 
 

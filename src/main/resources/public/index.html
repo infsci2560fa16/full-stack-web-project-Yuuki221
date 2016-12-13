@@ -45,8 +45,8 @@
 				A place for peace and calm for your life. Listen to the rain, the winds, the birds and the river. Let sounds comfort your mind. 
 			</p>
 			<div class="login-register-links">
-				<span class="linkbtn login-link"><a href="#">Login</a></span>
-				<span class="linkbtn register-link"><a href="#">Register</a></span>
+				<span class="linkbtn login-link">Login</span>
+				<!-- <span class="linkbtn register-link"><a href="/">Register</a></span> -->
 			</div>
 		</section>
 		<!-- 
@@ -58,21 +58,19 @@
 		-->
 		<section class="hide login-box main-box">
 			<h2>Login</h2>
-			<form action="post" class="login-form">
 				<ul>
 					<li>
-						<label for="login-username">username</label>
-						<input type="text" id="login-username" class="ipt-username" value="" placeholder="Enter your username" name="username" />
+						<label class="ripple-login-form-label" for="login-username">Email</label>
+						<input type="email" id="login-email" class="ipt-username" value="" placeholder="Enter your Email" name="user-email" />
 					</li>
 					<li>
-						<label for="login-password">Password</label>
+						<label class="ripple-login-form-label" for="login-password">Password</label>
 						<input type="password" id="login-password" class="password" value="" placeholder="Enter your password" name="password">
 					</li>
 					<li>
-					<button class="submit-btn" type="submit">Login</button>
+					<button class="common-btn submit-btn login-btn" id="ripple-login-btn">Login</button>
 					</li>
 				</ul>
-			</form>
 		</section>
 		<!-- 
 			end of login-box
@@ -144,5 +142,6 @@
 	-->
 	<script src="./js/vendor/jquery-3.1.1.min.js"></script>
 	<script src="./js/index_JS.js"></script>
+	<script src="./js/index.js"></script>
 </body>
 </html>

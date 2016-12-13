@@ -1,6 +1,117 @@
+/* 
+	navigation style 
+ */
+
+.navigation-item {
+	cursor: pointer;
+	color: $simpler-lime-green;
+}
+
+li {
+	list-style: none;
+}
+
+/* 
+	header title 
+*/
+
+.sub-content-title {
+	font-size: 2.5rem;
+}
+
 .sub-page-title {
 	@include sub-page-title();
 }
+
+.ripple-post-li {
+	height: 200px;
+	margin-top: 20px;
+}
+
+.ripple-post-date {
+	background: $simpler-lime-green;
+	color: $scuffed-dark-grey;
+}
+
+.ripple-post-content {
+	border-top: solid 1px $white-ish;
+	border-bottom: solid 1px $white-ish;
+
+	height: 130px;
+
+	padding: 20px;
+}
+
+/* 
+	textarea
+ */
+.ripple-put-blog {
+	display: block;
+	height: 120px;
+	width: 100%;
+}
+
+.ripple-post-btn {
+	width: 100px;
+	background: $simpler-lime-green;
+	color: $scuffed-dark-grey;
+	margin-top: 20px;
+}
+
+/* 
+	favorite tracks style
+ */
+
+.ripple-song-name {
+	width: 100%;
+	color: $simpler-lime-green;
+	margin-top: 20px;
+}
+
+.ripple-artist {
+	width: 100%;
+	color: $simpler-lime-green;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.ripple-play-btn-wrap, .ripple-like-btn-wrap {
+	font-size: 1.5rem;
+	width: 200px;
+
+	border: solid 1px $white-ish;
+	@include border-radius(5px);
+
+	padding: 10px;
+
+	margin-top: 20px;
+
+	cursor: pointer;
+}
+
+.ripple-like-track-li {
+	border-bottom: solid 1px $white-ish;
+	height: 150px;
+
+	line-height: 40px;
+}
+
+.ripple-play-btn-wrap {
+	margin-left: 0;
+}
+
+.ripple-like-btn-wrap {
+	margin-left: 40px;
+}
+
+.sub-content-content {
+	height: 600px;
+	overflow: scroll;
+}
+
+
+
+
 
 
 

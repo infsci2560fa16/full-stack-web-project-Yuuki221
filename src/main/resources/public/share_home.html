@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="./stylesheets/vendor/reset.css" media="screen">
   <link rel="stylesheet" href="./stylesheets/Share-Tech-Mono/css/fonts.css" media="screen">
   <link rel="stylesheet" href="./stylesheets/general_setting.css">
-  <link rel="stylesheet" href="./stylesheets/home-page.css">
+  <link rel="stylesheet" href="./stylesheets/share_home-style.css">
+
+  <script src="./js/listen_home.js"></script>
 </head>
 <body>
 	<!-- 
@@ -32,7 +34,7 @@
 		C106.27,144.041,125.551,163.33,149.334,163.33z"/>
 				</svg>
 			</a>
-			<h2 id="banner-title" class="main-title">The Ripples</h2>
+			<h2 id="banner-title" class="main-title"><a href="home.html" id="main-home-link">The Ripples</a></h2>
 			<div id="account-block" class="account-block">
 				<h2 id="account-title" class="account-title">Account</h2>
 				<ul class="hide account-setting">
@@ -46,49 +48,35 @@
 		end of header section 
 	-->
 
-	<!-- 
-		start of main body 
+	<!--
+		start of main section
 	-->
 	<main class="main-body">
-		<h1 class="page-main-title">Welcome to The Ripples</h1>
-		<div class="four-sections-wrap">
-			<section class="four-section">
-				<h2 class="four-section-title">Listen</h2>
-				<div class="four-section-content">
-				Listen to sounds from natural and from our sounds artist.
-				</div>
-				<div class="four-section-bottom">
-					<span class="linkbtn" id="enter-listen"><a href="listen_home.html">Enter</a></span>
-				</div>
-			</section>
-			<!-- <section class="four-section">
-				<h2 class="four-section-title">Connect</h2>
-				<div class="four-section-content">
-					Connect with your friends on The Ripples. Live chatting rooms are ready. 
-				</div>
-				<div class="four-section-bottom">
-					<span class="linkbtn" id="enter-connect"><a href="">Enter</a></span>
-				</div>
-			</section> -->
-			<section class="four-section">
-				<h2 class="four-section-title">Share</h2>
-				<div class="four-section-content">
-					Share your stories and experience, about life, about all. 
-				</div>
-				<div class="four-section-bottom">
-					<span class="linkbtn" id="enter-share"><a href="share_home.html">Enter</a></span>
-				</div>
-			</section>
-			<section class="four-section">
-				<h2 class="four-section-title">Recommend</h2>
-				<div class="four-section-content">
-					Here is recommendations from the website administrator. 
-				</div>
-				<div class="four-section-bottom">
-					<span class="linkbtn" id="enter-recommend"><a href="recommend_home.html" id="main-home-link">Enter</a></span>
-				</div>
-			</section>
+		<!-- 
+			beginning of wrapper of main content 
+		-->
+		<h1 class="subpage-title">Share</h1>
+		<div class="two-columns-wrap">
+			<!-- 
+				start for right side content content
+			-->
+			<div class="right-content content-display-area-wrap">
+				<section class="content-display-area">
+ 					<h2 class="sub-content-title" id="sub-share-content-title"></h2>
+ 					<div class="sub-content-wrap">
+ 						<ul class="sub-content-ul" id="sub-share-content-ul">
+							
+ 						</ul>
+ 					</div>
+				</section>
+			</div>
+			<!-- 
+				end for right side content
+			-->
 		</div>
+		<!-- 
+			end for wrapper for main content
+		-->
 	</main>
 	<!-- 
 		end of main section
@@ -116,9 +104,10 @@
 	-->
 
 	<!-- 
-		begin of javascript files
+		start of script
 	-->
 	<script src="./js/vendor/jquery-3.1.1.min.js"></script>
 	<script src="./js/header_JS.js"></script>
+	<script src="./js/share_home_JS.js"></script>
 </body>
 </html>

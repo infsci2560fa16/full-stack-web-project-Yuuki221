@@ -90,59 +90,49 @@
 .account-setting li a {
   text-decoration: none; }
 
-/* 
-	navigation style 
- */
-.navigation-item {
-  cursor: pointer;
-  color: #7dce94; }
-
-li {
-  list-style: none; }
-
-/* 
-	header title 
+/*
+	Some useful functions to help simply scss 
 */
-.sub-content-title {
-  font-size: 2.5rem; }
-
-.sub-page-title {
+.subpage-title {
   font-size: 5rem;
   font-weight: 900;
   padding-top: 50px;
   padding-bottom: 20px;
   border-bottom: solid 1px #f9f8fd; }
 
-.ripple-post-li {
-  height: 200px;
-  margin-top: 20px; }
-
-.ripple-post-date {
-  background: #7dce94;
-  color: #3d3d3f; }
-
-.ripple-post-content {
-  border-top: solid 1px #f9f8fd;
-  border-bottom: solid 1px #f9f8fd;
-  height: 130px;
-  padding: 20px; }
+/* 
+	Style navigation 
+*/
+.navigation-item {
+  color: #7dce94;
+  cursor: pointer; }
 
 /* 
-	textarea
- */
-.ripple-put-blog {
+	Focus Now Section 
+*/
+.sub-content-title {
   display: block;
-  height: 120px;
-  width: 100%; }
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #f9f8fd; }
 
-.ripple-post-btn {
-  width: 100px;
-  background: #7dce94;
-  color: #3d3d3f;
-  margin-top: 20px; }
+.ripple-play-btn-wrap {
+  width: 200px;
+  font-size: 2.5rem;
+  margin-left: 50px; }
+
+.ripple-focus-track-name {
+  display: inline-block;
+  font-size: 2rem;
+  color: #7dce94; }
+
+.focus-track-li {
+  height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 /* 
-	favorite tracks style
+	All track style
  */
 .ripple-song-name {
   width: 100%;
@@ -155,7 +145,7 @@ li {
   margin-top: 10px;
   margin-bottom: 20px; }
 
-.ripple-play-btn-wrap, .ripple-like-btn-wrap {
+.ripple-all-track-play-btn, .ripple-like-btn-wrap {
   font-size: 1.5rem;
   width: 200px;
   border: solid 1px #f9f8fd;
@@ -167,19 +157,59 @@ li {
   margin-top: 20px;
   cursor: pointer; }
 
-.ripple-like-track-li {
+.ripple-all-track-li {
   border-bottom: solid 1px #f9f8fd;
   height: 150px;
   line-height: 40px; }
 
-.ripple-play-btn-wrap {
+.ripple-all-track-play-btn {
   margin-left: 0; }
 
 .ripple-like-btn-wrap {
   margin-left: 40px; }
 
-.sub-content-content {
-  height: 600px;
-  overflow: scroll; }
+/* 
+	style for show all blogs
+ */
+.right-content {
+  width: 100%; }
 
-/*# sourceMappingURL=user_home-style.css.map */
+.ripple-blog-poster, .ripple-blog-content, .ripple-blog-date {
+  display: block; }
+
+.ripple-blog-poster {
+  background: #7dce94;
+  color: #f9f8fd; }
+
+.ripple-all-blog-li {
+  height: 150px;
+  margin-top: 20px; }
+
+.ripple-blog-content {
+  height: 120px; }
+
+/* 
+	Recommendation cotent section style 
+*/
+.sub-recommend-content-li {
+  height: 60px;
+  padding-top: 20px; }
+
+.focus-track-li {
+  width: 100%; }
+
+.ripple-volume-adjuster-wrap {
+  position: relative;
+  width: 300px;
+  height: 10px;
+  background: #f6f5f3; }
+
+.ripple-volume-inner {
+  position: absolute;
+  height: 10px;
+  background: #7dce94; }
+
+.ripple-play-btn-wrap svg {
+  fill: #f6f5f3; }
+
+/*# sourceMappingURL=share_home-style.css.map */

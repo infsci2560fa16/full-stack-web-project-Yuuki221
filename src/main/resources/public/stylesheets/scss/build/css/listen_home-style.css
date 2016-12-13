@@ -26,23 +26,10 @@
   padding-right: 15px; }
 
 .left-navigation {
-  margin-right: 0; }
-
-.left-navigation {
-  width: 20%;
-  height: 700px; }
+  width: 20%; }
 
 .right-content {
-  width: 70%;
-  height: 700px;
-  float: right; }
-
-.sub-content-wrap {
-  overflow: scroll;
-  height: 600px; }
-
-.ripple-volume-adjuster-wrap {
-  margin-top: 20px; }
+  width: 70%; }
 
 .account-block {
   position: absolute;
@@ -90,83 +77,12 @@
 .account-setting li a {
   text-decoration: none; }
 
-/*
-	Some useful functions to help simply scss 
-*/
 .subpage-title {
   font-size: 5rem;
   font-weight: 900;
   padding-top: 50px;
   padding-bottom: 20px;
   border-bottom: solid 1px #f9f8fd; }
-
-/* 
-	Style navigation 
-*/
-.navigation-item {
-  color: #7dce94;
-  cursor: pointer; }
-
-/* 
-	Focus Now Section 
-*/
-.sub-content-title {
-  display: block;
-  font-size: 2.5rem;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #f9f8fd; }
-
-.ripple-play-btn-wrap {
-  width: 200px;
-  font-size: 2.5rem;
-  margin-left: 50px; }
-
-.ripple-focus-track-name {
-  display: inline-block;
-  font-size: 2rem;
-  color: #7dce94; }
-
-.focus-track-li {
-  height: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-/* 
-	All track style
- */
-.ripple-song-name {
-  width: 100%;
-  color: #7dce94;
-  margin-top: 20px; }
-
-.ripple-artist {
-  width: 100%;
-  color: #7dce94;
-  margin-top: 10px;
-  margin-bottom: 20px; }
-
-.ripple-all-track-play-btn, .ripple-like-btn-wrap {
-  font-size: 1.5rem;
-  width: 200px;
-  border: solid 1px #f9f8fd;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 20px;
-  cursor: pointer; }
-
-.ripple-all-track-li {
-  border-bottom: solid 1px #f9f8fd;
-  height: 200px;
-  line-height: 40px; }
-
-.ripple-all-track-play-btn {
-  margin-left: 0; }
-
-.ripple-like-btn-wrap {
-  margin-left: 40px; }
 
 .focus-track-li {
   width: 100%; }
@@ -184,5 +100,3 @@
 
 .ripple-play-btn-wrap svg {
   fill: #f6f5f3; }
-
-/*# sourceMappingURL=listen_home-style.css.map */

@@ -36,6 +36,18 @@ a:hover {
   display: none; }
 
 /* 
+	Style buttons 
+ */
+.common-btn {
+  background: #f9f8fd;
+  border: none; }
+
+#main-home-link {
+  color: #f9f8fd; }
+  #main-home-link, #main-home-link:hover, #main-home-link:visited {
+    text-decoration: none; }
+
+/* 
 	for general header setting at the front page
 
 	with website title and icon at left side  
@@ -176,5 +188,17 @@ footer {
 .login-box h2 {
   font-weight: 900;
   font-size: 4rem; }
+
+.ripple-login-form-label {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  text-align: left; }
+
+.login-box ul {
+  text-align: center; }
+
+#ripple-login-btn {
+  width: 300px; }
 
 /*# sourceMappingURL=index_main.css.map */
